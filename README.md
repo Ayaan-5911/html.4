@@ -1,1 +1,42 @@
-# html.4
+<!DOCTYPE html>
+<html langsUTF-8">
+  <title>Studygram Login Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<section>
+  <div class="form-box">
+    <div class="form-value">
+      <form method="post">
+        <h2>Login</h2>
+        <div class="inputbox">
+          <ion-icon name="mail-outline"></ion-icon>
+          <input name='email' type="email" required>
+          <label for="email">Email</label>
+        </div>
+        <div class="inputbox">
+          <ion-icon name="lock-closed-outline"></ion-icon>
+          <input name="password" type="password" required>
+          <label for="password">Password</label>
+        </div>
+        <div class="forget">
+          <label>
+            <input type="checkbox"> Remember me
+          </label>
+          <label>
+            <a href="#">Forgot password?</a>
+          </label>
+        </div>
+        <button onclick="location.href = 'E2.html';">Log in</button>
+        <div class="register">
+          <p>Don't have an account ? <a href="#">Register</a></p>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
